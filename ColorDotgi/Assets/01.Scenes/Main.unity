@@ -269,8 +269,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9199c28329b39874fa4304579b2d4919, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_lockTime: 0.5
-  m_isKeyLock: 0
+  m_moveSpeed: 0.5
+  m_isKeyLock: 1
 --- !u!212 &1199751516
 SpriteRenderer:
   m_ObjectHideFlags: 0
