@@ -25,9 +25,8 @@ public class Script_CharacterState : MonoBehaviour
         Debug.Log(MaxHp);
     }
 
-    // Update is called once per frame
-    void Update()
+    public void AddHp(int _hp)
     {
-        
+        CurrentHp += _hp;
     }
 }
