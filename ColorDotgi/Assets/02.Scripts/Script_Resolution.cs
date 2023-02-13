@@ -22,6 +22,4 @@ public class Script_Resolution : MonoBehaviour
         }
         camera.rect = rect;
     }
-
-    void OnPreCull() => GL.Clear(true, true, Color.black);
 }

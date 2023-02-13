@@ -13,9 +13,11 @@ public class Script_CharacterState : MonoBehaviour
 
     private static int curretHp = 3;
     private static int maxHp = 6;
+    private static float moveSpeed = 0.5f;
 
     public static int CurrentHp { get => curretHp; set => curretHp = value; }
     public static int MaxHp { get => maxHp; set => maxHp = value; }
+    public static float MoveSpeed { get => moveSpeed; set => moveSpeed = value; }
 
     //체력은 아이작형식 하트 반하트
 
@@ -23,10 +25,5 @@ public class Script_CharacterState : MonoBehaviour
     {
         Debug.Log(CurrentHp);
         Debug.Log(MaxHp);
-    }
-
-    public void AddHp(int _hp)
-    {
-        CurrentHp += _hp;
     }
 }
