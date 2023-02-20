@@ -20,7 +20,34 @@ public class Script_PlayerController : MonoBehaviour
     {
 
     }
-    //플레이어이동
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.tag == "Enemy")
+        {
+            Script_CharacterState.CurrentHp -= 1;
+        }
+    }
+    /// <summary>
+    /// 적과부디칠때
+    /// </summary>
+    void HitEnemy()
+    {
+
+    }
+
+    /// <summary>
+    /// 아이템획득
+    /// </summary>
+    void GetItem()
+    {
+
+    }
+
+    /// <summary>
+    /// 플레이어이동 
+    /// </summary>
+    /// <param name="_distance"> 이동거리및속도</param>
+    /// <param name="_vector3">이동방향</param>
     public void Move(float _distance, Vector3 _vector3)
     {
         m_isKeyLock = false;

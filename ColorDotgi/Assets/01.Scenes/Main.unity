@@ -346,7 +346,7 @@ GameObject:
   - component: {fileID: 302597018}
   - component: {fileID: 302597017}
   m_Layer: 5
-  m_Name: Image
+  m_Name: CurrentHP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -582,6 +582,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa2662a44e395ab43b0022d71cd0179c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _heartMaxContainer: {fileID: 0}
+  _heartContainer: {fileID: 302597015}
 --- !u!1 &508578520
 GameObject:
   m_ObjectHideFlags: 0

@@ -8,6 +8,7 @@ using UnityEngine.UI;
 
 public class Script_Button : MonoBehaviour, IPointerEnterHandler//, IPointerClickHandler
 {
+    //이동버튼 1회클릭 이동 2회클릭시 대쉬
     private float doubleClickTimeLimit = 0.2f;
     public Vector3 _vector3;
     public void OnPointerEnter(PointerEventData eventData)
